@@ -19,7 +19,21 @@ function changeHeadLines() {
   return headline2Text;
 }
 
-  </script>
+function logHeadlines() {
+  var h1 = $('h1').text();
+  console.log(h1);
+  var h2 = $('h2').text();
+  console.log(h2);
+}
+
+function swapHeadlines() {
+  var swaph1 = $('h1').text();
+  var swaph2 = $('h2').text();
+  $('h1').text(swaph2);
+  $('h2').text(swaph1);
+}
+
+</script>
 
 </head>
 <body>
