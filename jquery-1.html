@@ -43,8 +43,23 @@ function undo() {
   $('h3').show();
 }
 
+function highlightByline() {
+  $(".byline").addClass("highlight");
+}
+
+function unHighlightByline() {
+  $(".byline").removeClass("highlight")
+}
 
 </script>
+
+<style>
+
+.highlight {
+  background: yellow;
+}
+
+</style>
 
 </head>
 <body>
